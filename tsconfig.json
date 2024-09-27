@@ -12,6 +12,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
     "paths": {
       "@/*": ["./src/*"]
     }
